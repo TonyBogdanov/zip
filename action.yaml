@@ -1,0 +1,9 @@
+name: tonybogdanov-zip
+author: Tony Bogdanov
+description: GitHub action to zip/unzip files
+branding:
+    color: blue
+    icon: check-square
+runs:
+    using: docker
+    image: docker://tonybogdanov/zip:latest
